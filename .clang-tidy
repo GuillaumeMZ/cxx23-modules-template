@@ -1,0 +1,14 @@
+Checks:
+  bugprone-*
+  clang-analyzer-*
+  concurrency-*
+  cppcoreguidelines-*
+  hicpp-*
+  misc-*
+  modernize-*
+  performance-*
+  portability-*
+  -portability-avoid-pragma-once
+  readability-*
+HeaderFileExtensions: ['', 'h', 'H', 'hh', 'hxx', 'hpp']
+ImplementationFileExtensions: ['c', 'C', 'cc', 'cxx', 'cpp']
